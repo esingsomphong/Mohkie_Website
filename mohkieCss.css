@@ -58,3 +58,18 @@ h2 {
 	background-color: #FD00FC; 
 	color: white;
 }
+
+.video {
+	width: 100%;
+	background-color: black;
+
+
+}
+
+.video iframe {
+	display: block;
+	margin: auto;
+	width: 80%;
+	background-color: black;
+	padding-bottom: 30px;
+}
