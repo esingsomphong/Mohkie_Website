@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title> Home </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <link href="mcss/mohkieCss.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 </head>
@@ -11,20 +11,30 @@
 	<!--Navigation-->
 	
 <div class="topbox">
-	<div class="logo"><a href="index.html"><img src=mimages/mohkie_logo.png width="300"></a>
+	<div class="logo"><a href="mohkie_home.html"><img src=mimages/mohkie_logo.png width="300"></a>
 	</div>
 	
-	<div class="navbar">
+	<div class="navbar" id="myTopnav">
+		<a href="javascript:void(0);" style="font-size:40px;" class="icon" onclick="myFunction()">&#9776;</a></li>
 		<a href="Mohkie_Videos.html">Videos</a>
-		<a href="mohkie_instagram.html">Instagram</a>
+		<a href="mohkie_Instagram.html">Instagram</a>
 		<a href="Merch">Merch</a>
 		<a href="Events">Events</a>
 		<a href="About">About</a>
+	
 	</div>
-
-
-
 </div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+</script>
 
 
 </body>
