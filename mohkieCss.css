@@ -9,8 +9,16 @@ h1 {
 }
 
 h2 {
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
 	margin: auto;
 	font-family: helvetica;
+	margin: auto;
+	color: white;
+	background-color: black;
+	font-size: 30px;
 }
 
 
@@ -91,7 +99,6 @@ h2 {
 	width: 100%;
 	background-color: black;
 
-
 }
 
 .video iframe {
@@ -104,5 +111,26 @@ h2 {
 
 .picture {
 	width: 100%;
-	background-color: black,
+	background-color: black;
 }
+
+.picture img {
+	display: block;
+	margin: auto;
+	width: 80%;
+	background-color: black;	
+}
+
+.events {
+	width: 100%;
+	background-color: black;
+}
+
+.events img {
+	display: block;
+	margin: auto;
+	width: 60%;
+	background-color: black;
+
+}
+
