@@ -22,10 +22,9 @@ h2 {
 }
 
 .logo  {
-	width: 100%;
-	
-	  
+	width: 100%;	  
 }
+
 
 .logo img {
 	display: block;
@@ -35,29 +34,58 @@ h2 {
 
 
 .navbar {
-	display: block;
-	text-align: center;
-	padding: 15px 15px;
-
+  background-color: black;
+  display: block;
+  padding: 15px 60px;
+  width: 70%;
+  margin: auto;
 }
-  
+
+ 
 .navbar a {
-  color: white;
-  font-size: 40px;
-  font-family: 'Bangers', cursive;
-  padding: 10px 30px 10px 30px;
-  text-decoration: none;
-  }
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	font-size: 40px;
+	font-family: 'Bangers', cursive;
+}
 
 .navbar a:hover {
-	background-color: #FD00FC; 
-	color: white;
+  background-color: #FD00FC;
+  color: white;
 }
 
 .active {
-	background-color: #FD00FC; 
-	color: white;
+  background-color: #FD00FC;
+  color: white;
 }
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}  
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+}
+
 
 .video {
 	width: 100%;
@@ -72,4 +100,9 @@ h2 {
 	width: 80%;
 	background-color: black;
 	padding-bottom: 30px;
+}
+
+.picture {
+	width: 100%;
+	background-color: black,
 }
