@@ -15,17 +15,6 @@ h1 {
 h2 {
 	margin: auto;
 	font-family: helvetica;
-	padding-top: 3%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 10%;
-	margin: auto;
-	font-family: helvetica;
-	margin: auto;
-	color: grey;
-	background-color: black;
-	font-size: 29px;
-
 }
 
 
@@ -109,7 +98,7 @@ h2 {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     display: inline-block;
-    
+    height:80%
     width: 100%;
     border: none;
     outline: none;
@@ -128,6 +117,8 @@ h2 {
   .navbar.responsive .icon {
     right: 0;
     top: 0;
+    height: 80%;
+    width: 100%;
     
 
 
