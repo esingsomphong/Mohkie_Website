@@ -40,6 +40,10 @@ h3 {
 	text-align: center;
 }
 
+body {
+	background-color: black;
+}
+
 .topbox {
 	height: 10%;
 	width: 100%;
