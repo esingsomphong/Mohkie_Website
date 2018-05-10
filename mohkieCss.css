@@ -13,11 +13,32 @@ h1 {
 }
 
 h2 {
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
 	margin: auto;
 	font-family: helvetica;
+	margin: auto;
+	color: grey;
+	background-color: black;
+	font-size: 29px;
+	text-align: center;
 }
 
-
+h3 {
+	padding-top: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	margin: auto;
+	font-family: helvetica;
+	margin: auto;
+	color: grey;
+	background-color: black;
+	font-size: 40px;
+	text-align: center;
+}
 
 .topbox {
 	height: 10%;
