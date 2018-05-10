@@ -110,6 +110,7 @@ h2 {
   .navbar.responsive .icon {
     right: 0;
     top: 0;
+    display: inline-block;
   }
 }  
 
