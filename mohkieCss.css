@@ -60,6 +60,23 @@ h2 {
 	margin: auto;
 }
 
+@media screen and (max-width: 800px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a {
+  font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a {position: relative;}
+  .navbar a {
+    
+    font-size: 25px;
+
+
+  }
+} 
+
 .navbar a:hover {
   background-color: #FD00FC;
   color: white;
