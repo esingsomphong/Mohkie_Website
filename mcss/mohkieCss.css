@@ -72,6 +72,7 @@ h2 {
   .navbar a {
     
     font-size: 25px;
+  display: inline-block;
 
 
   }
@@ -110,7 +111,7 @@ h2 {
   .navbar.responsive .icon {
     right: 0;
     top: 0;
-    display: inline-block;
+    
   }
 }  
 
