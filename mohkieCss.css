@@ -16,7 +16,7 @@ h2 {
 	margin: auto;
 	font-family: helvetica;
 	margin: auto;
-	color: white;
+	color: grey;
 	background-color: black;
 	font-size: 30px;
 }
@@ -138,6 +138,7 @@ h2 {
 	margin: auto;
 	width: 60%;
 	background-color: black;
+	padding-bottom: 70px;
 
 }
 
