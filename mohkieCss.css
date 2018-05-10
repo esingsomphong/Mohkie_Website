@@ -35,18 +35,18 @@ h2 {
 
 
 .logo img {
-	display: block;
+    display: block;
     margin: auto;
     padding-top: 20px;
 }
 
 
 .navbar {
-  background-color: black;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   padding: 15px 60px;
-  width: 70%;
   margin: auto;
+  text-align: center;
 }
 
  
@@ -57,6 +57,7 @@ h2 {
 	padding: 10px 30px 10px 30px;
 	font-size: 40px;
 	font-family: 'Bangers', cursive;
+	margin: auto;
 }
 
 .navbar a:hover {
@@ -70,13 +71,20 @@ h2 {
 }
 
 .navbar .icon {
-  display: none;
+   display: none;
+   margin: auto;
 }
 
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
-    display: block;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    transition: 0.3s;
+    
   }
 }
 
