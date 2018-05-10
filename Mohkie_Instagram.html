@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,31 @@
 <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 </head>
 
+
+
+
 <body>
+	<style>
+
+@media (max-width: 800px) {
+    iframe {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    iframe {
+        flex: 80%;
+        max-width: 80%;
+    }
+}
+
+</style>
+
+
+
 	<!--Navigation-->
 	
 <div class="topbox">
@@ -17,16 +42,14 @@
 	<div class="navbar" id="myTopnav">
 		<a href="javascript:void(0);" style="font-size:40px;" class="icon" onclick="myFunction()">&#9776;
 		</a>
-		<a href="Mohkie_Videos.html">Videos</a>
-		<a href="Mohkie_Instagram.html" class="active">Instagram</a>
+		<a href="mohkie_home.html">Videos</a>
+		<a href="mohkie_Instagram.html" class="active">Instagram</a>
 		<a href="Mohkie_Merch.html">Merch</a>
 		<a href="Mohkie_Events.html">Events</a>
 		<a href="Mohkie_About.html">About</a>
 	</div>
 
 <iframe src='https://www.juicer.io/api/feeds/mohkie/iframe' frameborder='0' width='1000' height='1000' style='display:block;margin:0 auto;'></iframe>
-
-
 </div>
 
 <script>
