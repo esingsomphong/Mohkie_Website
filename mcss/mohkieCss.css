@@ -75,7 +75,7 @@ h2 {
    margin: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     display: inline-block;
