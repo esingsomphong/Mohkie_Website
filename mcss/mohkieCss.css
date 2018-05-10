@@ -13,11 +13,36 @@ h1 {
 }
 
 h2 {
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
 	margin: auto;
 	font-family: helvetica;
+	margin: auto;
+	color: grey;
+	background-color: black;
+	font-size: 29px;
+	text-align: center;
 }
 
+h3 {
+	padding-top: 15%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	margin: auto;
+	font-family: helvetica;
+	margin: auto;
+	color: grey;
+	background-color: black;
+	font-size: 40px;
+	text-align: center;
+}
 
+body {
+	background-color: black;
+}
 
 .topbox {
 	height: 10%;
@@ -59,14 +84,14 @@ h2 {
 
 }
 
-@media screen and (max-width: 70px) {
+@media screen and (max-width: 800px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a {
   font-size: 33px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .navbar a {position: relative;}
   .navbar a {
     
@@ -98,7 +123,7 @@ h2 {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     display: inline-block;
-    height: 80%; 
+    height:80%
     width: 100%;
     border: none;
     outline: none;
@@ -117,7 +142,7 @@ h2 {
   .navbar.responsive .icon {
     right: 0;
     top: 0;
-    height: 80%; 
+    height: 80%;
     width: 100%;
     
 
@@ -184,5 +209,6 @@ h2 {
 	margin: auto;
 	width: 60%;
 	background-color: black;
+	padding-bottom: 70px;
 
 }
