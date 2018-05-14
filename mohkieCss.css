@@ -217,3 +217,17 @@ body {
 
 }
 
+.shirt {
+  width: 100%;
+  background-color: black;
+}
+
+.shirt img {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  background-color: black;
+}
+
+
